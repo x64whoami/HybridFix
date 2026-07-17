@@ -23,4 +23,5 @@ jobs:
           path: |
             build/libs/hybridfix-*.jar
             !build/libs/hybridfix-*-*.jar
+          retention-days: 90
           archive: false
